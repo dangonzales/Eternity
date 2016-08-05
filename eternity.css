@@ -1,0 +1,60 @@
+/* menu container */
+#menubarmiddle{
+    display: none;
+}
+.nav .admin-nav.hidden{
+    display: none;
+}
+
+.nav{
+    height: 2em;
+    min-width: 1159px;
+}
+
+.nav a {
+    margin-left: -4.5px;
+    padding: 1em 3em 1em 3em !important;
+    outline: none;
+    border: 1px solid #c6d78b;
+    background: -moz-linear-gradient(center top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.34) 100%) repeat scroll 0 0 transparent;
+    background: url(http://dkpfiles.com/dkp-templates/pandafight/greenbg.png);
+    box-shadow: 0 2px 3px rgba(255, 255, 255, 0.05) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: #777777;
+    vertical-align: top;
+    text-decoration: none;
+    text-shadow: 0 -1px #0F0F0F;
+    font-size: 13px;
+    line-height: 3.5em;
+    cursor: pointer;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.nav a:not(:last-child){
+    border-right: none;
+}
+.nav a:hover {
+    color:#f6f6f6;
+    background-color: greenyellow;
+}
+.nav a:first-child {
+    border-radius: 6px 0 0 6px;
+}
+.nav a:last-child {
+    border-radius: 0 6px 6px 0;
+}
+.nav a:active {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.nav a.highlight {
+    background: -moz-linear-gradient(center top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.44) 100%) repeat scroll 0 0 transparent;
+    color: #f6f6f6;
+}
