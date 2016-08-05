@@ -1,3 +1,7 @@
+html{
+    background-image: url(/settings/eternitydi/files/background_ss.png);
+    background-size: cover;
+}
 /* menu container */
 #menubarmiddle{
     display: none;
